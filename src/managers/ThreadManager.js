@@ -89,7 +89,7 @@ class ThreadManager extends BaseManager {
    * // Create a new public thread
    * channel.threads
    *   .create({
-   *     name: 'food-talk'
+   *     name: 'food-talk',
    *     autoArchiveDuration: 60,
    *     startMessage: channel.lastMessageID,
    *     reason: 'Needed a separate thread for food',
